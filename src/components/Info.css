@@ -1,0 +1,70 @@
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-data {
+    margin-top: 1.5rem;
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.info--name {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: .2rem;
+}
+
+.info--role {
+    font-size: 12.8px;
+    color: rgb(243, 191, 153);
+    margin-bottom: .2rem;
+}
+
+.info--website {
+    font-size: 10.24px;
+}
+
+.info-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.info--email-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 34px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.info--linkedin-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 34px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(80, 147, 226);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.info--email-btn img, .info--linkedin-btn img {
+    margin-right: .5rem;
+}
