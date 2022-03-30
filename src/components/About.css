@@ -1,16 +1,16 @@
-.about-container {
-    width: 247px;
-    margin: 1.5rem auto;
-    background-color: rgb(26, 27, 33);
+.about__container {
+	width: 247px;
+	margin: 1.5rem auto;
+	background-color: rgb(26, 27, 33);
 }
 
-.about--title {
-    font-size: 1rem;
-    color: rgb(245, 245, 245);
-    margin-bottom: .3rem;
+.about__title {
+	font-size: 1rem;
+	color: rgb(245, 245, 245);
+	margin-bottom: 0.3rem;
 }
 
-.about--text {
-    font-size: 10.24px;
-    color: rgb(220, 220, 220)
+.about__text {
+	font-size: 10.24px;
+	color: rgb(220, 220, 220);
 }
