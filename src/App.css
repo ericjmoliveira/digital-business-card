@@ -3,3 +3,9 @@
 	background-color: rgb(26, 27, 33);
 	color: rgb(255, 255, 255);
 }
+
+@media screen and (max-width: 480px) {
+	.App {
+		height: 90vh;
+	}
+}
